@@ -140,6 +140,6 @@ cmd:
 	-$(CMD) $(CFILES) $(HFILES) $(OTHER) $(MANPAGE)
 install:
 	mkdir -p $(INSDIR)/man/man1
-	cp spiff $(INSDIR)
+	cp spiff $(INSDIR)/bin
 	cp $(MANPAGE) $(INSDIR)/man/man1
 	
